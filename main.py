@@ -11,7 +11,10 @@ def main():
     # Do not delete the return statement
     ########################################
     """
-    return celcius, fahrenheit
+    celsius = int(input('What is your degrees in celsius? '))
+    fahrenheit = 9 / 5 * celsius + 32
+    print (f'Fahrenheit: \t {fahrenheit:.2f}')
+    return celsius, fahrenheit
 
 
 if __name__ == '__main__':
